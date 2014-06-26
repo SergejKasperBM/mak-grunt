@@ -1,0 +1,1107 @@
+Jun 12, 2014 8:15:31 PM org.openqa.grid.selenium.GridLauncher main
+INFORMATION: Launching a standalone server
+Setting system property webdriver.chrome.driver to /Users/sergej/Work/Workspaces/PhpStorm/mak-grunt-2/node_modules/grunt-selenium/tasks/lib/mac.chromedriver
+20:15:31.403 INFO - Java: Oracle Corporation 25.5-b02
+20:15:31.403 INFO - OS: Mac OS X 10.9.2 x86_64
+20:15:31.410 INFO - v2.35.0, with Core v2.35.0. Built from revision c916b9d
+20:15:31.493 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+20:15:31.494 INFO - Version Jetty/5.1.x
+20:15:31.495 INFO - Started HttpContext[/selenium-server,/selenium-server]
+20:15:31.510 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@3ab39c39
+20:15:31.510 INFO - Started HttpContext[/wd,/wd]
+20:15:31.510 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+20:15:31.510 INFO - Started HttpContext[/,/]
+20:15:31.512 WARN - Failed to start: SocketListener0@0.0.0.0:4444
+Exception in thread "main" java.net.BindException: Selenium is already running on port 4444. Or some other service is.
+	at org.openqa.selenium.server.SeleniumServer.start(SeleniumServer.java:491)
+	at org.openqa.selenium.server.SeleniumServer.boot(SeleniumServer.java:300)
+	at org.openqa.selenium.server.SeleniumServer.main(SeleniumServer.java:245)
+	at org.openqa.grid.selenium.GridLauncher.main(GridLauncher.java:93)
+Jun 12, 2014 8:16:30 PM org.openqa.grid.selenium.GridLauncher main
+INFORMATION: Launching a standalone server
+Setting system property webdriver.chrome.driver to /Users/sergej/Work/Workspaces/PhpStorm/mak-grunt-2/node_modules/grunt-selenium/tasks/lib/mac.chromedriver
+20:16:30.676 INFO - Java: Oracle Corporation 25.5-b02
+20:16:30.677 INFO - OS: Mac OS X 10.9.2 x86_64
+20:16:30.683 INFO - v2.35.0, with Core v2.35.0. Built from revision c916b9d
+20:16:30.768 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+20:16:30.768 INFO - Version Jetty/5.1.x
+20:16:30.769 INFO - Started HttpContext[/selenium-server,/selenium-server]
+20:16:30.785 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@3ab39c39
+20:16:30.785 INFO - Started HttpContext[/wd,/wd]
+20:16:30.785 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+20:16:30.785 INFO - Started HttpContext[/,/]
+20:16:30.787 WARN - Failed to start: SocketListener0@0.0.0.0:4444
+Exception in thread "main" java.net.BindException: Selenium is already running on port 4444. Or some other service is.
+	at org.openqa.selenium.server.SeleniumServer.start(SeleniumServer.java:491)
+	at org.openqa.selenium.server.SeleniumServer.boot(SeleniumServer.java:300)
+	at org.openqa.selenium.server.SeleniumServer.main(SeleniumServer.java:245)
+	at org.openqa.grid.selenium.GridLauncher.main(GridLauncher.java:93)
+Jun 12, 2014 8:22:53 PM org.openqa.grid.selenium.GridLauncher main
+INFORMATION: Launching a standalone server
+Setting system property webdriver.chrome.driver to /Users/sergej/Work/Workspaces/PhpStorm/mak-grunt-2/node_modules/grunt-selenium/tasks/lib/mac.chromedriver
+20:22:53.662 INFO - Java: Oracle Corporation 25.5-b02
+20:22:53.662 INFO - OS: Mac OS X 10.9.2 x86_64
+20:22:53.668 INFO - v2.35.0, with Core v2.35.0. Built from revision c916b9d
+20:22:53.749 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+20:22:53.750 INFO - Version Jetty/5.1.x
+20:22:53.751 INFO - Started HttpContext[/selenium-server,/selenium-server]
+20:22:53.767 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@3ab39c39
+20:22:53.767 INFO - Started HttpContext[/wd,/wd]
+20:22:53.767 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+20:22:53.767 INFO - Started HttpContext[/,/]
+20:22:53.770 INFO - Started SocketListener on 0.0.0.0:4444
+20:22:53.770 INFO - Started org.openqa.jetty.jetty.Server@300ffa5d
+20:22:53.914 INFO - Executing: [new session: {name=This is an example test, browserName=chrome, javascriptEnabled=true, version=, platform=ANY}] at URL: /session)
+20:22:53.920 INFO - Creating a new session for Capabilities [{name=This is an example test, browserName=chrome, javascriptEnabled=true, version=, platform=ANY}]
+[0.472][INFO]: received WebDriver request: GET /status 
+[0.473][INFO]: sending WebDriver response: 200 {
+   "sessionId": "",
+   "status": 0,
+   "value": {
+      "build": {
+         "version": "alpha"
+      },
+      "os": {
+         "arch": "x86_64",
+         "name": "Mac OS X",
+         "version": "10.9.2"
+      }
+   }
+}
+[0.521][INFO]: received WebDriver request: POST /session {
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "javascriptEnabled": true,
+      "name": "This is an example test",
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[0.525][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --remote-debugging-port=63874 --no-first-run --enable-logging --logging-level=1 --user-data-dir=/var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/.org.chromium.Chromium.IEEL5q --load-extension=/var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/.org.chromium.Chromium.D9npXJ/internal --ignore-certificate-errors data:text/html;charset=utf-8,
+[20.567][INFO]: sending WebDriver response: 200 {
+   "sessionId": "",
+   "status": 13,
+   "value": {
+      "message": "unknown error: Chrome failed to start: was killed\n  (Driver info: chromedriver=2.0,platform=Mac OS X 10.9.2 x86_64)"
+   }
+}
+20:23:14.641 WARN - Exception thrown
+java.util.concurrent.ExecutionException: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.2', java.version: '1.8.0_05'
+Driver info: driver.version: unknown
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.openqa.selenium.remote.server.DefaultSession.execute(DefaultSession.java:176)
+	at org.openqa.selenium.remote.server.DefaultSession.<init>(DefaultSession.java:112)
+	at org.openqa.selenium.remote.server.DefaultSession.createSession(DefaultSession.java:89)
+	at org.openqa.selenium.remote.server.DefaultDriverSessions.newSession(DefaultDriverSessions.java:89)
+	at org.openqa.selenium.remote.server.handler.NewSession.handle(NewSession.java:63)
+	at org.openqa.selenium.remote.server.rest.ResultConfig.handle(ResultConfig.java:205)
+	at org.openqa.selenium.remote.server.JsonHttpRemoteConfig.handleRequest(JsonHttpRemoteConfig.java:192)
+	at org.openqa.selenium.remote.server.DriverServlet.handleRequest(DriverServlet.java:201)
+	at org.openqa.selenium.remote.server.DriverServlet.doPost(DriverServlet.java:167)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.openqa.selenium.remote.server.DriverServlet.service(DriverServlet.java:139)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.openqa.jetty.jetty.servlet.ServletHolder.handle(ServletHolder.java:428)
+	at org.openqa.jetty.jetty.servlet.ServletHandler.dispatch(ServletHandler.java:677)
+	at org.openqa.jetty.jetty.servlet.ServletHandler.handle(ServletHandler.java:568)
+	at org.openqa.jetty.http.HttpContext.handle(HttpContext.java:1526)
+	at org.openqa.jetty.http.HttpContext.handle(HttpContext.java:1479)
+	at org.openqa.jetty.http.HttpServer.service(HttpServer.java:914)
+	at org.openqa.jetty.http.HttpConnection.service(HttpConnection.java:820)
+	at org.openqa.jetty.http.HttpConnection.handleNext(HttpConnection.java:986)
+	at org.openqa.jetty.http.HttpConnection.handle(HttpConnection.java:837)
+	at org.openqa.jetty.http.SocketListener.handleConnection(SocketListener.java:243)
+	at org.openqa.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.openqa.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+Caused by: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.2', java.version: '1.8.0_05'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.callConstructor(DefaultDriverFactory.java:72)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:56)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:215)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:169)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.callConstructor(DefaultDriverFactory.java:62)
+	... 8 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: was killed
+  (Driver info: chromedriver=2.0,platform=Mac OS X 10.9.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.62 seconds
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.2', java.version: '1.8.0_05'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:111)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:115)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:129)
+	... 13 more
+20:23:14.644 WARN - Exception: unknown error: Chrome failed to start: was killed
+  (Driver info: chromedriver=2.0,platform=Mac OS X 10.9.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.62 seconds
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.2', java.version: '1.8.0_05'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Jun 12, 2014 8:25:15 PM org.openqa.grid.selenium.GridLauncher main
+INFORMATION: Launching a standalone server
+Setting system property webdriver.chrome.driver to /Users/sergej/Work/Workspaces/PhpStorm/mak-grunt-2/node_modules/grunt-selenium/tasks/lib/mac.chromedriver
+20:25:15.591 INFO - Java: Oracle Corporation 25.5-b02
+20:25:15.592 INFO - OS: Mac OS X 10.9.2 x86_64
+20:25:15.598 INFO - v2.35.0, with Core v2.35.0. Built from revision c916b9d
+20:25:15.685 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+20:25:15.686 INFO - Version Jetty/5.1.x
+20:25:15.687 INFO - Started HttpContext[/selenium-server,/selenium-server]
+20:25:15.703 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@721e0f4f
+20:25:15.704 INFO - Started HttpContext[/wd,/wd]
+20:25:15.704 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+20:25:15.704 INFO - Started HttpContext[/,/]
+20:25:15.707 INFO - Started SocketListener on 0.0.0.0:4444
+20:25:15.707 INFO - Started org.openqa.jetty.jetty.Server@300ffa5d
+20:25:15.843 INFO - Executing: [new session: {name=This is an example test, browserName=firefox, javascriptEnabled=true, version=, platform=ANY}] at URL: /session)
+20:25:15.849 INFO - Creating a new session for Capabilities [{name=This is an example test, browserName=firefox, javascriptEnabled=true, version=, platform=ANY}]
+org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host localhost on port 7055 after 45000 ms. Firefox console output:
+*** LOG addons.manager: Application has been upgraded
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous3543596624627483280webdriver-profile/extensions/webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: Directory state JSON differs: cache [] state [{"name":"app-global","addons":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"descriptor":"/Applications/Firefox.app/Contents/MacOS/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}","mtime":1399428251000,"rdfTime":1399419784000}}},{"name":"app-profile","addons":{"fxdriver@googlecode.com":{"descriptor":"/var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous3543596624627483280webdriver-profile/extensions/fxdriver@googlecode.com","mtime":1402597516000,"rdfTime":1402597516000}}}]
+*** LOG addons.xpi-utils: Opening XPI database /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous3543596624627483280webdriver-profile/extensions.json
+*** LOG addons.xpi: New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+*** LOG addons.xpi-utils: Make addon app-profile:fxdriver@googlecode.com visible
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG addons.xpi: New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+*** LOG addons.xpi-utils: Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG addons.xpi: Updating database with changes to installed add-ons
+*** LOG addons.xpi-utils: Updating add-on states
+*** LOG addons.xpi-utils: Writing add-ons list
+*** LOG DeferredSave/extensions.json: Starting timer
+*** LOG DeferredSave/extensions.json: Starting write
+*** LOG addons.manager: shutdown
+*** LOG addons.xpi: shutdown
+*** LOG addons.xpi-utils: shutdown
+*** LOG DeferredSave/extensions.json: Write succeeded
+*** LOG addons.xpi-utils: XPI Database saved, setting schema version preference to 16
+*** LOG addons.xpi: Notifying XPI shutdown observers
+*** LOG addons.manager: Async provider shutdown done
+System JS : ERROR resource://gre/modules/BookmarkHTMLUtils.jsm:798 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+System JS : ERROR resource://app/components/nsBrowserGlue.js:1665 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIAnnotationService.getItemsWithAnnotation]
+System JS : ERROR resource://gre/modules/BookmarkHTMLUtils.jsm:798 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous3543596624627483280webdriver-profile/extensions/webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: No changes found
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 650: aUrl is undefined
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:106)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:251)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:110)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:197)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:190)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:108)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.callConstructor(DefaultDriverFactory.java:62)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:56)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:215)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:169)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+20:26:02.057 WARN - Exception thrown
+java.util.concurrent.ExecutionException: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.2', java.version: '1.8.0_05'
+Driver info: driver.version: unknown
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.openqa.selenium.remote.server.DefaultSession.execute(DefaultSession.java:176)
+	at org.openqa.selenium.remote.server.DefaultSession.<init>(DefaultSession.java:112)
+	at org.openqa.selenium.remote.server.DefaultSession.createSession(DefaultSession.java:89)
+	at org.openqa.selenium.remote.server.DefaultDriverSessions.newSession(DefaultDriverSessions.java:89)
+	at org.openqa.selenium.remote.server.handler.NewSession.handle(NewSession.java:63)
+	at org.openqa.selenium.remote.server.rest.ResultConfig.handle(ResultConfig.java:205)
+	at org.openqa.selenium.remote.server.JsonHttpRemoteConfig.handleRequest(JsonHttpRemoteConfig.java:192)
+	at org.openqa.selenium.remote.server.DriverServlet.handleRequest(DriverServlet.java:201)
+	at org.openqa.selenium.remote.server.DriverServlet.doPost(DriverServlet.java:167)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.openqa.selenium.remote.server.DriverServlet.service(DriverServlet.java:139)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.openqa.jetty.jetty.servlet.ServletHolder.handle(ServletHolder.java:428)
+	at org.openqa.jetty.jetty.servlet.ServletHandler.dispatch(ServletHandler.java:677)
+	at org.openqa.jetty.jetty.servlet.ServletHandler.handle(ServletHandler.java:568)
+	at org.openqa.jetty.http.HttpContext.handle(HttpContext.java:1526)
+	at org.openqa.jetty.http.HttpContext.handle(HttpContext.java:1479)
+	at org.openqa.jetty.http.HttpServer.service(HttpServer.java:914)
+	at org.openqa.jetty.http.HttpConnection.service(HttpConnection.java:820)
+	at org.openqa.jetty.http.HttpConnection.handleNext(HttpConnection.java:986)
+	at org.openqa.jetty.http.HttpConnection.handle(HttpConnection.java:837)
+	at org.openqa.jetty.http.SocketListener.handleConnection(SocketListener.java:243)
+	at org.openqa.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.openqa.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+Caused by: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.2', java.version: '1.8.0_05'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.callConstructor(DefaultDriverFactory.java:72)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:56)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:215)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:169)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.callConstructor(DefaultDriverFactory.java:62)
+	... 8 more
+Caused by: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7055; process output follows: 
+*** LOG addons.manager: Application has been upgraded
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous3543596624627483280webdriver-profile/extensions/webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: Directory state JSON differs: cache [] state [{"name":"app-global","addons":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"descriptor":"/Applications/Firefox.app/Contents/MacOS/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}","mtime":1399428251000,"rdfTime":1399419784000}}},{"name":"app-profile","addons":{"fxdriver@googlecode.com":{"descriptor":"/var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous3543596624627483280webdriver-profile/extensions/fxdriver@googlecode.com","mtime":1402597516000,"rdfTime":1402597516000}}}]
+*** LOG addons.xpi-utils: Opening XPI database /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous3543596624627483280webdriver-profile/extensions.json
+*** LOG addons.xpi: New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+*** LOG addons.xpi-utils: Make addon app-profile:fxdriver@googlecode.com visible
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG addons.xpi: New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+*** LOG addons.xpi-utils: Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG addons.xpi: Updating database with changes to installed add-ons
+*** LOG addons.xpi-utils: Updating add-on states
+*** LOG addons.xpi-utils: Writing add-ons list
+*** LOG DeferredSave/extensions.json: Starting timer
+*** LOG DeferredSave/extensions.json: Starting write
+*** LOG addons.manager: shutdown
+*** LOG addons.xpi: shutdown
+*** LOG addons.xpi-utils: shutdown
+*** LOG DeferredSave/extensions.json: Write succeeded
+*** LOG addons.xpi-utils: XPI Database saved, setting schema version preference to 16
+*** LOG addons.xpi: Notifying XPI shutdown observers
+*** LOG addons.manager: Async provider shutdown done
+System JS : ERROR resource://gre/modules/BookmarkHTMLUtils.jsm:798 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+System JS : ERROR resource://app/components/nsBrowserGlue.js:1665 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIAnnotationService.getItemsWithAnnotation]
+System JS : ERROR resource://gre/modules/BookmarkHTMLUtils.jsm:798 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous3543596624627483280webdriver-profile/extensions/webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: No changes found
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 650: aUrl is undefined
+
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.2', java.version: '1.8.0_05'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:251)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:110)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:197)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:190)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:108)
+	... 13 more
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host localhost on port 7055 after 45000 ms. Firefox console output:
+*** LOG addons.manager: Application has been upgraded
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous3543596624627483280webdriver-profile/extensions/webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: Directory state JSON differs: cache [] state [{"name":"app-global","addons":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"descriptor":"/Applications/Firefox.app/Contents/MacOS/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}","mtime":1399428251000,"rdfTime":1399419784000}}},{"name":"app-profile","addons":{"fxdriver@googlecode.com":{"descriptor":"/var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous3543596624627483280webdriver-profile/extensions/fxdriver@googlecode.com","mtime":1402597516000,"rdfTime":1402597516000}}}]
+*** LOG addons.xpi-utils: Opening XPI database /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous3543596624627483280webdriver-profile/extensions.json
+*** LOG addons.xpi: New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+*** LOG addons.xpi-utils: Make addon app-profile:fxdriver@googlecode.com visible
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG addons.xpi: New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+*** LOG addons.xpi-utils: Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG addons.xpi: Updating database with changes to installed add-ons
+*** LOG addons.xpi-utils: Updating add-on states
+*** LOG addons.xpi-utils: Writing add-ons list
+*** LOG DeferredSave/extensions.json: Starting timer
+*** LOG DeferredSave/extensions.json: Starting write
+*** LOG addons.manager: shutdown
+*** LOG addons.xpi: shutdown
+*** LOG addons.xpi-utils: shutdown
+*** LOG DeferredSave/extensions.json: Write succeeded
+*** LOG addons.xpi-utils: XPI Database saved, setting schema version preference to 16
+*** LOG addons.xpi: Notifying XPI shutdown observers
+*** LOG addons.manager: Async provider shutdown done
+System JS : ERROR resource://gre/modules/BookmarkHTMLUtils.jsm:798 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+System JS : ERROR resource://app/components/nsBrowserGlue.js:1665 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIAnnotationService.getItemsWithAnnotation]
+System JS : ERROR resource://gre/modules/BookmarkHTMLUtils.jsm:798 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous3543596624627483280webdriver-profile/extensions/webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: No changes found
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 650: aUrl is undefined
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:106)
+	... 18 more
+20:26:02.066 WARN - Exception: Unable to connect to host localhost on port 7055 after 45000 ms. Firefox console output:
+*** LOG addons.manager: Application has been upgraded
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous3543596624627483280webdriver-profile/extensions/webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: Directory state JSON differs: cache [] state [{"name":"app-global","addons":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"descriptor":"/Applications/Firefox.app/Contents/MacOS/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}","mtime":1399428251000,"rdfTime":1399419784000}}},{"name":"app-profile","addons":{"fxdriver@googlecode.com":{"descriptor":"/var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous3543596624627483280webdriver-profile/extensions/fxdriver@googlecode.com","mtime":1402597516000,"rdfTime":1402597516000}}}]
+*** LOG addons.xpi-utils: Opening XPI database /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous3543596624627483280webdriver-profile/extensions.json
+*** LOG addons.xpi: New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+*** LOG addons.xpi-utils: Make addon app-profile:fxdriver@googlecode.com visible
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG addons.xpi: New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+*** LOG addons.xpi-utils: Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG addons.xpi: Updating database with changes to installed add-ons
+*** LOG addons.xpi-utils: Updating add-on states
+*** LOG addons.xpi-utils: Writing add-ons list
+*** LOG DeferredSave/extensions.json: Starting timer
+*** LOG DeferredSave/extensions.json: Starting write
+*** LOG addons.manager: shutdown
+*** LOG addons.xpi: shutdown
+*** LOG addons.xpi-utils: shutdown
+*** LOG DeferredSave/extensions.json: Write succeeded
+*** LOG addons.xpi-utils: XPI Database saved, setting schema version preference to 16
+*** LOG addons.xpi: Notifying XPI shutdown observers
+*** LOG addons.manager: Async provider shutdown done
+System JS : ERROR resource://gre/modules/BookmarkHTMLUtils.jsm:798 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+System JS : ERROR resource://app/components/nsBrowserGlue.js:1665 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIAnnotationService.getItemsWithAnnotation]
+System JS : ERROR resource://gre/modules/BookmarkHTMLUtils.jsm:798 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous3543596624627483280webdriver-profile/extensions/webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: No changes found
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 650: aUrl is undefined
+
+Jun 12, 2014 8:27:57 PM org.openqa.grid.selenium.GridLauncher main
+INFORMATION: Launching a standalone server
+Setting system property webdriver.chrome.driver to /Users/sergej/Work/Workspaces/PhpStorm/mak-grunt-2/node_modules/grunt-selenium/tasks/lib/mac.chromedriver
+20:27:57.519 INFO - Java: Oracle Corporation 25.5-b02
+20:27:57.520 INFO - OS: Mac OS X 10.9.2 x86_64
+20:27:57.526 INFO - v2.35.0, with Core v2.35.0. Built from revision c916b9d
+20:27:57.608 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+20:27:57.609 INFO - Version Jetty/5.1.x
+20:27:57.610 INFO - Started HttpContext[/selenium-server,/selenium-server]
+20:27:57.626 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@3ab39c39
+20:27:57.626 INFO - Started HttpContext[/wd,/wd]
+20:27:57.626 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+20:27:57.626 INFO - Started HttpContext[/,/]
+20:27:57.629 INFO - Started SocketListener on 0.0.0.0:4444
+20:27:57.629 INFO - Started org.openqa.jetty.jetty.Server@300ffa5d
+20:27:57.764 INFO - Executing: [new session: {name=This is an example test, browserName=firefox, javascriptEnabled=true, version=, platform=ANY}] at URL: /session)
+20:27:57.769 INFO - Creating a new session for Capabilities [{name=This is an example test, browserName=firefox, javascriptEnabled=true, version=, platform=ANY}]
+org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host localhost on port 7055 after 45000 ms. Firefox console output:
+*** LOG addons.manager: Application has been upgraded
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous6841728501586564614webdriver-profile/extensions/webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: Directory state JSON differs: cache [] state [{"name":"app-global","addons":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"descriptor":"/Applications/Firefox.app/Contents/MacOS/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}","mtime":1399428251000,"rdfTime":1399419784000}}},{"name":"app-profile","addons":{"fxdriver@googlecode.com":{"descriptor":"/var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous6841728501586564614webdriver-profile/extensions/fxdriver@googlecode.com","mtime":1402597678000,"rdfTime":1402597678000}}}]
+*** LOG addons.xpi-utils: Opening XPI database /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous6841728501586564614webdriver-profile/extensions.json
+*** LOG addons.xpi: New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+*** LOG addons.xpi-utils: Make addon app-profile:fxdriver@googlecode.com visible
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG addons.xpi: New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+*** LOG addons.xpi-utils: Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG addons.xpi: Updating database with changes to installed add-ons
+*** LOG addons.xpi-utils: Updating add-on states
+*** LOG addons.xpi-utils: Writing add-ons list
+*** LOG DeferredSave/extensions.json: Starting timer
+*** LOG DeferredSave/extensions.json: Starting write
+*** LOG addons.manager: shutdown
+*** LOG addons.xpi: shutdown
+*** LOG addons.xpi-utils: shutdown
+*** LOG DeferredSave/extensions.json: Write succeeded
+*** LOG addons.xpi-utils: XPI Database saved, setting schema version preference to 16
+*** LOG addons.xpi: Notifying XPI shutdown observers
+*** LOG addons.manager: Async provider shutdown done
+System JS : ERROR resource://gre/modules/BookmarkHTMLUtils.jsm:798 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+System JS : ERROR resource://app/components/nsBrowserGlue.js:1665 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIAnnotationService.getItemsWithAnnotation]
+System JS : ERROR resource://gre/modules/BookmarkHTMLUtils.jsm:798 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous6841728501586564614webdriver-profile/extensions/webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: No changes found
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 650: aUrl is undefined
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:106)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:251)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:110)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:197)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:190)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:108)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.callConstructor(DefaultDriverFactory.java:62)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:56)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:215)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:169)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+20:28:43.731 WARN - Exception thrown
+java.util.concurrent.ExecutionException: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.2', java.version: '1.8.0_05'
+Driver info: driver.version: unknown
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.openqa.selenium.remote.server.DefaultSession.execute(DefaultSession.java:176)
+	at org.openqa.selenium.remote.server.DefaultSession.<init>(DefaultSession.java:112)
+	at org.openqa.selenium.remote.server.DefaultSession.createSession(DefaultSession.java:89)
+	at org.openqa.selenium.remote.server.DefaultDriverSessions.newSession(DefaultDriverSessions.java:89)
+	at org.openqa.selenium.remote.server.handler.NewSession.handle(NewSession.java:63)
+	at org.openqa.selenium.remote.server.rest.ResultConfig.handle(ResultConfig.java:205)
+	at org.openqa.selenium.remote.server.JsonHttpRemoteConfig.handleRequest(JsonHttpRemoteConfig.java:192)
+	at org.openqa.selenium.remote.server.DriverServlet.handleRequest(DriverServlet.java:201)
+	at org.openqa.selenium.remote.server.DriverServlet.doPost(DriverServlet.java:167)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.openqa.selenium.remote.server.DriverServlet.service(DriverServlet.java:139)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.openqa.jetty.jetty.servlet.ServletHolder.handle(ServletHolder.java:428)
+	at org.openqa.jetty.jetty.servlet.ServletHandler.dispatch(ServletHandler.java:677)
+	at org.openqa.jetty.jetty.servlet.ServletHandler.handle(ServletHandler.java:568)
+	at org.openqa.jetty.http.HttpContext.handle(HttpContext.java:1526)
+	at org.openqa.jetty.http.HttpContext.handle(HttpContext.java:1479)
+	at org.openqa.jetty.http.HttpServer.service(HttpServer.java:914)
+	at org.openqa.jetty.http.HttpConnection.service(HttpConnection.java:820)
+	at org.openqa.jetty.http.HttpConnection.handleNext(HttpConnection.java:986)
+	at org.openqa.jetty.http.HttpConnection.handle(HttpConnection.java:837)
+	at org.openqa.jetty.http.SocketListener.handleConnection(SocketListener.java:243)
+	at org.openqa.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.openqa.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+Caused by: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.2', java.version: '1.8.0_05'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.callConstructor(DefaultDriverFactory.java:72)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:56)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:215)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:169)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.callConstructor(DefaultDriverFactory.java:62)
+	... 8 more
+Caused by: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7055; process output follows: 
+*** LOG addons.manager: Application has been upgraded
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous6841728501586564614webdriver-profile/extensions/webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: Directory state JSON differs: cache [] state [{"name":"app-global","addons":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"descriptor":"/Applications/Firefox.app/Contents/MacOS/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}","mtime":1399428251000,"rdfTime":1399419784000}}},{"name":"app-profile","addons":{"fxdriver@googlecode.com":{"descriptor":"/var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous6841728501586564614webdriver-profile/extensions/fxdriver@googlecode.com","mtime":1402597678000,"rdfTime":1402597678000}}}]
+*** LOG addons.xpi-utils: Opening XPI database /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous6841728501586564614webdriver-profile/extensions.json
+*** LOG addons.xpi: New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+*** LOG addons.xpi-utils: Make addon app-profile:fxdriver@googlecode.com visible
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG addons.xpi: New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+*** LOG addons.xpi-utils: Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG addons.xpi: Updating database with changes to installed add-ons
+*** LOG addons.xpi-utils: Updating add-on states
+*** LOG addons.xpi-utils: Writing add-ons list
+*** LOG DeferredSave/extensions.json: Starting timer
+*** LOG DeferredSave/extensions.json: Starting write
+*** LOG addons.manager: shutdown
+*** LOG addons.xpi: shutdown
+*** LOG addons.xpi-utils: shutdown
+*** LOG DeferredSave/extensions.json: Write succeeded
+*** LOG addons.xpi-utils: XPI Database saved, setting schema version preference to 16
+*** LOG addons.xpi: Notifying XPI shutdown observers
+*** LOG addons.manager: Async provider shutdown done
+System JS : ERROR resource://gre/modules/BookmarkHTMLUtils.jsm:798 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+System JS : ERROR resource://app/components/nsBrowserGlue.js:1665 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIAnnotationService.getItemsWithAnnotation]
+System JS : ERROR resource://gre/modules/BookmarkHTMLUtils.jsm:798 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous6841728501586564614webdriver-profile/extensions/webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: No changes found
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 650: aUrl is undefined
+
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.2', java.version: '1.8.0_05'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:251)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:110)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:197)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:190)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:108)
+	... 13 more
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host localhost on port 7055 after 45000 ms. Firefox console output:
+*** LOG addons.manager: Application has been upgraded
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous6841728501586564614webdriver-profile/extensions/webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: Directory state JSON differs: cache [] state [{"name":"app-global","addons":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"descriptor":"/Applications/Firefox.app/Contents/MacOS/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}","mtime":1399428251000,"rdfTime":1399419784000}}},{"name":"app-profile","addons":{"fxdriver@googlecode.com":{"descriptor":"/var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous6841728501586564614webdriver-profile/extensions/fxdriver@googlecode.com","mtime":1402597678000,"rdfTime":1402597678000}}}]
+*** LOG addons.xpi-utils: Opening XPI database /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous6841728501586564614webdriver-profile/extensions.json
+*** LOG addons.xpi: New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+*** LOG addons.xpi-utils: Make addon app-profile:fxdriver@googlecode.com visible
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG addons.xpi: New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+*** LOG addons.xpi-utils: Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG addons.xpi: Updating database with changes to installed add-ons
+*** LOG addons.xpi-utils: Updating add-on states
+*** LOG addons.xpi-utils: Writing add-ons list
+*** LOG DeferredSave/extensions.json: Starting timer
+*** LOG DeferredSave/extensions.json: Starting write
+*** LOG addons.manager: shutdown
+*** LOG addons.xpi: shutdown
+*** LOG addons.xpi-utils: shutdown
+*** LOG DeferredSave/extensions.json: Write succeeded
+*** LOG addons.xpi-utils: XPI Database saved, setting schema version preference to 16
+*** LOG addons.xpi: Notifying XPI shutdown observers
+*** LOG addons.manager: Async provider shutdown done
+System JS : ERROR resource://gre/modules/BookmarkHTMLUtils.jsm:798 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+System JS : ERROR resource://app/components/nsBrowserGlue.js:1665 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIAnnotationService.getItemsWithAnnotation]
+System JS : ERROR resource://gre/modules/BookmarkHTMLUtils.jsm:798 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous6841728501586564614webdriver-profile/extensions/webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: No changes found
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 650: aUrl is undefined
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:106)
+	... 18 more
+20:28:43.741 WARN - Exception: Unable to connect to host localhost on port 7055 after 45000 ms. Firefox console output:
+*** LOG addons.manager: Application has been upgraded
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous6841728501586564614webdriver-profile/extensions/webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: Directory state JSON differs: cache [] state [{"name":"app-global","addons":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"descriptor":"/Applications/Firefox.app/Contents/MacOS/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}","mtime":1399428251000,"rdfTime":1399419784000}}},{"name":"app-profile","addons":{"fxdriver@googlecode.com":{"descriptor":"/var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous6841728501586564614webdriver-profile/extensions/fxdriver@googlecode.com","mtime":1402597678000,"rdfTime":1402597678000}}}]
+*** LOG addons.xpi-utils: Opening XPI database /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous6841728501586564614webdriver-profile/extensions.json
+*** LOG addons.xpi: New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+*** LOG addons.xpi-utils: Make addon app-profile:fxdriver@googlecode.com visible
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG addons.xpi: New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+*** LOG addons.xpi-utils: Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG addons.xpi: Updating database with changes to installed add-ons
+*** LOG addons.xpi-utils: Updating add-on states
+*** LOG addons.xpi-utils: Writing add-ons list
+*** LOG DeferredSave/extensions.json: Starting timer
+*** LOG DeferredSave/extensions.json: Starting write
+*** LOG addons.manager: shutdown
+*** LOG addons.xpi: shutdown
+*** LOG addons.xpi-utils: shutdown
+*** LOG DeferredSave/extensions.json: Write succeeded
+*** LOG addons.xpi-utils: XPI Database saved, setting schema version preference to 16
+*** LOG addons.xpi: Notifying XPI shutdown observers
+*** LOG addons.manager: Async provider shutdown done
+System JS : ERROR resource://gre/modules/BookmarkHTMLUtils.jsm:798 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+System JS : ERROR resource://app/components/nsBrowserGlue.js:1665 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIAnnotationService.getItemsWithAnnotation]
+System JS : ERROR resource://gre/modules/BookmarkHTMLUtils.jsm:798 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous6841728501586564614webdriver-profile/extensions/webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: No changes found
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 650: aUrl is undefined
+
+Jun 12, 2014 8:35:25 PM org.openqa.grid.selenium.GridLauncher main
+INFORMATION: Launching a standalone server
+Setting system property webdriver.chrome.driver to /Users/sergej/Work/Workspaces/PhpStorm/mak-grunt-2/node_modules/grunt-selenium/tasks/lib/mac.chromedriver
+20:35:25.867 INFO - Java: Oracle Corporation 25.5-b02
+20:35:25.869 INFO - OS: Mac OS X 10.9.2 x86_64
+20:35:25.878 INFO - v2.35.0, with Core v2.35.0. Built from revision c916b9d
+20:35:26.003 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+20:35:26.004 INFO - Version Jetty/5.1.x
+20:35:26.005 INFO - Started HttpContext[/selenium-server,/selenium-server]
+20:35:26.025 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@3ab39c39
+20:35:26.025 INFO - Started HttpContext[/wd,/wd]
+20:35:26.025 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+20:35:26.025 INFO - Started HttpContext[/,/]
+20:35:26.029 INFO - Started SocketListener on 0.0.0.0:4444
+20:35:26.029 INFO - Started org.openqa.jetty.jetty.Server@300ffa5d
+20:35:26.207 INFO - Executing: [new session: {name=This is an example test, browserName=firefox, javascriptEnabled=true, version=, platform=ANY}] at URL: /session)
+20:35:26.219 INFO - Creating a new session for Capabilities [{name=This is an example test, browserName=firefox, javascriptEnabled=true, version=, platform=ANY}]
+org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host localhost on port 7055 after 45000 ms. Firefox console output:
+*** LOG addons.manager: Application has been upgraded
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous4141704733043753882webdriver-profile/extensions/webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: Directory state JSON differs: cache [] state [{"name":"app-global","addons":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"descriptor":"/Applications/Firefox.app/Contents/MacOS/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}","mtime":1399428251000,"rdfTime":1399419784000}}},{"name":"app-profile","addons":{"fxdriver@googlecode.com":{"descriptor":"/var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous4141704733043753882webdriver-profile/extensions/fxdriver@googlecode.com","mtime":1402598126000,"rdfTime":1402598126000}}}]
+*** LOG addons.xpi-utils: Opening XPI database /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous4141704733043753882webdriver-profile/extensions.json
+*** LOG addons.xpi: New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+*** LOG addons.xpi-utils: Make addon app-profile:fxdriver@googlecode.com visible
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG addons.xpi: New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+*** LOG addons.xpi-utils: Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG addons.xpi: Updating database with changes to installed add-ons
+*** LOG addons.xpi-utils: Updating add-on states
+*** LOG addons.xpi-utils: Writing add-ons list
+*** LOG DeferredSave/extensions.json: Starting timer
+*** LOG DeferredSave/extensions.json: Starting write
+*** LOG addons.manager: shutdown
+*** LOG addons.xpi: shutdown
+*** LOG addons.xpi-utils: shutdown
+*** LOG DeferredSave/extensions.json: Write succeeded
+*** LOG addons.xpi-utils: XPI Database saved, setting schema version preference to 16
+*** LOG addons.xpi: Notifying XPI shutdown observers
+*** LOG addons.manager: Async provider shutdown done
+System JS : ERROR resource://gre/modules/BookmarkHTMLUtils.jsm:798 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+System JS : ERROR resource://app/components/nsBrowserGlue.js:1665 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIAnnotationService.getItemsWithAnnotation]
+System JS : ERROR resource://gre/modules/BookmarkHTMLUtils.jsm:798 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous4141704733043753882webdriver-profile/extensions/webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: No changes found
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 650: aUrl is undefined
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:106)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:251)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:110)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:197)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:190)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:108)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.callConstructor(DefaultDriverFactory.java:62)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:56)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:215)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:169)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+20:36:12.499 WARN - Exception thrown
+java.util.concurrent.ExecutionException: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.2', java.version: '1.8.0_05'
+Driver info: driver.version: unknown
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.openqa.selenium.remote.server.DefaultSession.execute(DefaultSession.java:176)
+	at org.openqa.selenium.remote.server.DefaultSession.<init>(DefaultSession.java:112)
+	at org.openqa.selenium.remote.server.DefaultSession.createSession(DefaultSession.java:89)
+	at org.openqa.selenium.remote.server.DefaultDriverSessions.newSession(DefaultDriverSessions.java:89)
+	at org.openqa.selenium.remote.server.handler.NewSession.handle(NewSession.java:63)
+	at org.openqa.selenium.remote.server.rest.ResultConfig.handle(ResultConfig.java:205)
+	at org.openqa.selenium.remote.server.JsonHttpRemoteConfig.handleRequest(JsonHttpRemoteConfig.java:192)
+	at org.openqa.selenium.remote.server.DriverServlet.handleRequest(DriverServlet.java:201)
+	at org.openqa.selenium.remote.server.DriverServlet.doPost(DriverServlet.java:167)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.openqa.selenium.remote.server.DriverServlet.service(DriverServlet.java:139)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.openqa.jetty.jetty.servlet.ServletHolder.handle(ServletHolder.java:428)
+	at org.openqa.jetty.jetty.servlet.ServletHandler.dispatch(ServletHandler.java:677)
+	at org.openqa.jetty.jetty.servlet.ServletHandler.handle(ServletHandler.java:568)
+	at org.openqa.jetty.http.HttpContext.handle(HttpContext.java:1526)
+	at org.openqa.jetty.http.HttpContext.handle(HttpContext.java:1479)
+	at org.openqa.jetty.http.HttpServer.service(HttpServer.java:914)
+	at org.openqa.jetty.http.HttpConnection.service(HttpConnection.java:820)
+	at org.openqa.jetty.http.HttpConnection.handleNext(HttpConnection.java:986)
+	at org.openqa.jetty.http.HttpConnection.handle(HttpConnection.java:837)
+	at org.openqa.jetty.http.SocketListener.handleConnection(SocketListener.java:243)
+	at org.openqa.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.openqa.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+Caused by: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.2', java.version: '1.8.0_05'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.callConstructor(DefaultDriverFactory.java:72)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:56)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:215)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:169)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.callConstructor(DefaultDriverFactory.java:62)
+	... 8 more
+Caused by: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7055; process output follows: 
+*** LOG addons.manager: Application has been upgraded
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous4141704733043753882webdriver-profile/extensions/webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: Directory state JSON differs: cache [] state [{"name":"app-global","addons":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"descriptor":"/Applications/Firefox.app/Contents/MacOS/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}","mtime":1399428251000,"rdfTime":1399419784000}}},{"name":"app-profile","addons":{"fxdriver@googlecode.com":{"descriptor":"/var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous4141704733043753882webdriver-profile/extensions/fxdriver@googlecode.com","mtime":1402598126000,"rdfTime":1402598126000}}}]
+*** LOG addons.xpi-utils: Opening XPI database /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous4141704733043753882webdriver-profile/extensions.json
+*** LOG addons.xpi: New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+*** LOG addons.xpi-utils: Make addon app-profile:fxdriver@googlecode.com visible
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG addons.xpi: New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+*** LOG addons.xpi-utils: Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG addons.xpi: Updating database with changes to installed add-ons
+*** LOG addons.xpi-utils: Updating add-on states
+*** LOG addons.xpi-utils: Writing add-ons list
+*** LOG DeferredSave/extensions.json: Starting timer
+*** LOG DeferredSave/extensions.json: Starting write
+*** LOG addons.manager: shutdown
+*** LOG addons.xpi: shutdown
+*** LOG addons.xpi-utils: shutdown
+*** LOG DeferredSave/extensions.json: Write succeeded
+*** LOG addons.xpi-utils: XPI Database saved, setting schema version preference to 16
+*** LOG addons.xpi: Notifying XPI shutdown observers
+*** LOG addons.manager: Async provider shutdown done
+System JS : ERROR resource://gre/modules/BookmarkHTMLUtils.jsm:798 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+System JS : ERROR resource://app/components/nsBrowserGlue.js:1665 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIAnnotationService.getItemsWithAnnotation]
+System JS : ERROR resource://gre/modules/BookmarkHTMLUtils.jsm:798 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous4141704733043753882webdriver-profile/extensions/webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: No changes found
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 650: aUrl is undefined
+
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.2', java.version: '1.8.0_05'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:251)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:110)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:197)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:190)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:108)
+	... 13 more
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host localhost on port 7055 after 45000 ms. Firefox console output:
+*** LOG addons.manager: Application has been upgraded
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous4141704733043753882webdriver-profile/extensions/webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: Directory state JSON differs: cache [] state [{"name":"app-global","addons":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"descriptor":"/Applications/Firefox.app/Contents/MacOS/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}","mtime":1399428251000,"rdfTime":1399419784000}}},{"name":"app-profile","addons":{"fxdriver@googlecode.com":{"descriptor":"/var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous4141704733043753882webdriver-profile/extensions/fxdriver@googlecode.com","mtime":1402598126000,"rdfTime":1402598126000}}}]
+*** LOG addons.xpi-utils: Opening XPI database /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous4141704733043753882webdriver-profile/extensions.json
+*** LOG addons.xpi: New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+*** LOG addons.xpi-utils: Make addon app-profile:fxdriver@googlecode.com visible
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG addons.xpi: New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+*** LOG addons.xpi-utils: Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG addons.xpi: Updating database with changes to installed add-ons
+*** LOG addons.xpi-utils: Updating add-on states
+*** LOG addons.xpi-utils: Writing add-ons list
+*** LOG DeferredSave/extensions.json: Starting timer
+*** LOG DeferredSave/extensions.json: Starting write
+*** LOG addons.manager: shutdown
+*** LOG addons.xpi: shutdown
+*** LOG addons.xpi-utils: shutdown
+*** LOG DeferredSave/extensions.json: Write succeeded
+*** LOG addons.xpi-utils: XPI Database saved, setting schema version preference to 16
+*** LOG addons.xpi: Notifying XPI shutdown observers
+*** LOG addons.manager: Async provider shutdown done
+System JS : ERROR resource://gre/modules/BookmarkHTMLUtils.jsm:798 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+System JS : ERROR resource://app/components/nsBrowserGlue.js:1665 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIAnnotationService.getItemsWithAnnotation]
+System JS : ERROR resource://gre/modules/BookmarkHTMLUtils.jsm:798 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous4141704733043753882webdriver-profile/extensions/webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: No changes found
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 650: aUrl is undefined
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:106)
+	... 18 more
+20:36:12.508 WARN - Exception: Unable to connect to host localhost on port 7055 after 45000 ms. Firefox console output:
+*** LOG addons.manager: Application has been upgraded
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous4141704733043753882webdriver-profile/extensions/webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: Directory state JSON differs: cache [] state [{"name":"app-global","addons":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"descriptor":"/Applications/Firefox.app/Contents/MacOS/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}","mtime":1399428251000,"rdfTime":1399419784000}}},{"name":"app-profile","addons":{"fxdriver@googlecode.com":{"descriptor":"/var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous4141704733043753882webdriver-profile/extensions/fxdriver@googlecode.com","mtime":1402598126000,"rdfTime":1402598126000}}}]
+*** LOG addons.xpi-utils: Opening XPI database /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous4141704733043753882webdriver-profile/extensions.json
+*** LOG addons.xpi: New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+*** LOG addons.xpi-utils: Make addon app-profile:fxdriver@googlecode.com visible
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG addons.xpi: New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+*** LOG addons.xpi-utils: Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG DeferredSave/extensions.json: Save changes
+*** LOG addons.xpi: Updating database with changes to installed add-ons
+*** LOG addons.xpi-utils: Updating add-on states
+*** LOG addons.xpi-utils: Writing add-ons list
+*** LOG DeferredSave/extensions.json: Starting timer
+*** LOG DeferredSave/extensions.json: Starting write
+*** LOG addons.manager: shutdown
+*** LOG addons.xpi: shutdown
+*** LOG addons.xpi-utils: shutdown
+*** LOG DeferredSave/extensions.json: Write succeeded
+*** LOG addons.xpi-utils: XPI Database saved, setting schema version preference to 16
+*** LOG addons.xpi: Notifying XPI shutdown observers
+*** LOG addons.manager: Async provider shutdown done
+System JS : ERROR resource://gre/modules/BookmarkHTMLUtils.jsm:798 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+System JS : ERROR resource://app/components/nsBrowserGlue.js:1665 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIAnnotationService.getItemsWithAnnotation]
+System JS : ERROR resource://gre/modules/BookmarkHTMLUtils.jsm:798 - NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.removeFolderChildren]
+*** LOG addons.xpi: startup
+*** LOG addons.xpi: Skipping unavailable install location app-system-share
+*** LOG addons.xpi: Ignoring file entry whose name is not a valid add-on ID: /var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/anonymous4141704733043753882webdriver-profile/extensions/webdriver-staging
+*** LOG addons.xpi: checkForChanges
+*** LOG addons.xpi: No changes found
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 650: aUrl is undefined
+
+Jun 12, 2014 8:38:18 PM org.openqa.grid.selenium.GridLauncher main
+INFORMATION: Launching a standalone server
+Setting system property webdriver.chrome.driver to /Users/sergej/Work/Workspaces/PhpStorm/mak-grunt-2/node_modules/grunt-selenium/tasks/lib/mac.chromedriver
+20:38:18.544 INFO - Java: Oracle Corporation 25.5-b02
+20:38:18.544 INFO - OS: Mac OS X 10.9.2 x86_64
+20:38:18.556 INFO - v2.35.0, with Core v2.35.0. Built from revision c916b9d
+20:38:18.728 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+20:38:18.729 INFO - Version Jetty/5.1.x
+20:38:18.730 INFO - Started HttpContext[/selenium-server,/selenium-server]
+20:38:18.755 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@3ab39c39
+20:38:18.755 INFO - Started HttpContext[/wd,/wd]
+20:38:18.756 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+20:38:18.756 INFO - Started HttpContext[/,/]
+20:38:18.760 INFO - Started SocketListener on 0.0.0.0:4444
+20:38:18.760 INFO - Started org.openqa.jetty.jetty.Server@300ffa5d
+20:38:18.928 INFO - Executing: [new session: {name=This is an example test, browserName=chrome, javascriptEnabled=true, version=, platform=ANY}] at URL: /session)
+20:38:18.935 INFO - Creating a new session for Capabilities [{name=This is an example test, browserName=chrome, javascriptEnabled=true, version=, platform=ANY}]
+[0.474][INFO]: received WebDriver request: GET /status 
+[0.475][INFO]: sending WebDriver response: 200 {
+   "sessionId": "",
+   "status": 0,
+   "value": {
+      "build": {
+         "version": "alpha"
+      },
+      "os": {
+         "arch": "x86_64",
+         "name": "Mac OS X",
+         "version": "10.9.2"
+      }
+   }
+}
+[0.523][INFO]: received WebDriver request: POST /session {
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "javascriptEnabled": true,
+      "name": "This is an example test",
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[0.526][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --remote-debugging-port=49493 --no-first-run --enable-logging --logging-level=1 --user-data-dir=/var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/.org.chromium.Chromium.zSKZgC --load-extension=/var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/.org.chromium.Chromium.jq1xBX/internal --ignore-certificate-errors data:text/html;charset=utf-8,
+[20.532][INFO]: sending WebDriver response: 200 {
+   "sessionId": "",
+   "status": 13,
+   "value": {
+      "message": "unknown error: Chrome failed to start: was killed\n  (Driver info: chromedriver=2.0,platform=Mac OS X 10.9.2 x86_64)"
+   }
+}
+20:38:39.644 WARN - Exception thrown
+java.util.concurrent.ExecutionException: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.2', java.version: '1.8.0_05'
+Driver info: driver.version: unknown
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.openqa.selenium.remote.server.DefaultSession.execute(DefaultSession.java:176)
+	at org.openqa.selenium.remote.server.DefaultSession.<init>(DefaultSession.java:112)
+	at org.openqa.selenium.remote.server.DefaultSession.createSession(DefaultSession.java:89)
+	at org.openqa.selenium.remote.server.DefaultDriverSessions.newSession(DefaultDriverSessions.java:89)
+	at org.openqa.selenium.remote.server.handler.NewSession.handle(NewSession.java:63)
+	at org.openqa.selenium.remote.server.rest.ResultConfig.handle(ResultConfig.java:205)
+	at org.openqa.selenium.remote.server.JsonHttpRemoteConfig.handleRequest(JsonHttpRemoteConfig.java:192)
+	at org.openqa.selenium.remote.server.DriverServlet.handleRequest(DriverServlet.java:201)
+	at org.openqa.selenium.remote.server.DriverServlet.doPost(DriverServlet.java:167)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.openqa.selenium.remote.server.DriverServlet.service(DriverServlet.java:139)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.openqa.jetty.jetty.servlet.ServletHolder.handle(ServletHolder.java:428)
+	at org.openqa.jetty.jetty.servlet.ServletHandler.dispatch(ServletHandler.java:677)
+	at org.openqa.jetty.jetty.servlet.ServletHandler.handle(ServletHandler.java:568)
+	at org.openqa.jetty.http.HttpContext.handle(HttpContext.java:1526)
+	at org.openqa.jetty.http.HttpContext.handle(HttpContext.java:1479)
+	at org.openqa.jetty.http.HttpServer.service(HttpServer.java:914)
+	at org.openqa.jetty.http.HttpConnection.service(HttpConnection.java:820)
+	at org.openqa.jetty.http.HttpConnection.handleNext(HttpConnection.java:986)
+	at org.openqa.jetty.http.HttpConnection.handle(HttpConnection.java:837)
+	at org.openqa.jetty.http.SocketListener.handleConnection(SocketListener.java:243)
+	at org.openqa.jetty.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.openqa.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+Caused by: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.2', java.version: '1.8.0_05'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.callConstructor(DefaultDriverFactory.java:72)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:56)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:215)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:169)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.callConstructor(DefaultDriverFactory.java:62)
+	... 8 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: was killed
+  (Driver info: chromedriver=2.0,platform=Mac OS X 10.9.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.58 seconds
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.2', java.version: '1.8.0_05'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:111)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:115)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:129)
+	... 13 more
+20:38:39.648 WARN - Exception: unknown error: Chrome failed to start: was killed
+  (Driver info: chromedriver=2.0,platform=Mac OS X 10.9.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.58 seconds
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.2', java.version: '1.8.0_05'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Jun 17, 2014 4:58:45 PM org.openqa.grid.selenium.GridLauncher main
+INFORMATION: Launching a standalone server
+Setting system property webdriver.chrome.driver to /Users/sergej/Work/Workspaces/PhpStorm/mak-grunt-2/node_modules/grunt-selenium/tasks/lib/mac.chromedriver
+16:58:45.178 INFO - Java: Oracle Corporation 25.5-b02
+16:58:45.179 INFO - OS: Mac OS X 10.9.2 x86_64
+16:58:45.189 INFO - v2.35.0, with Core v2.35.0. Built from revision c916b9d
+16:58:45.403 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+16:58:45.404 INFO - Version Jetty/5.1.x
+16:58:45.406 INFO - Started HttpContext[/selenium-server,/selenium-server]
+16:58:45.435 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@3ab39c39
+16:58:45.435 INFO - Started HttpContext[/wd,/wd]
+16:58:45.435 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+16:58:45.435 INFO - Started HttpContext[/,/]
+16:58:45.438 INFO - Started SocketListener on 0.0.0.0:4444
+16:58:45.438 INFO - Started org.openqa.jetty.jetty.Server@300ffa5d
+16:58:45.641 INFO - Executing: [new session: {name=This is an example test, browserName=chrome, javascriptEnabled=true, version=, platform=ANY}] at URL: /session)
+16:58:45.651 INFO - Creating a new session for Capabilities [{name=This is an example test, browserName=chrome, javascriptEnabled=true, version=, platform=ANY}]
+[0.480][INFO]: received WebDriver request: GET /status 
+[0.481][INFO]: sending WebDriver response: 200 {
+   "sessionId": "",
+   "status": 0,
+   "value": {
+      "build": {
+         "version": "alpha"
+      },
+      "os": {
+         "arch": "x86_64",
+         "name": "Mac OS X",
+         "version": "10.9.2"
+      }
+   }
+}
+[0.554][INFO]: received WebDriver request: POST /session {
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "javascriptEnabled": true,
+      "name": "This is an example test",
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[0.560][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --remote-debugging-port=49480 --no-first-run --enable-logging --logging-level=1 --user-data-dir=/var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/.org.chromium.Chromium.kkAq3B --load-extension=/var/folders/17/5cpjrqlj3cd7xts43yvyfcym0000gn/T/.org.chromium.Chromium.S7lAT0/internal --ignore-certificate-errors data:text/html;charset=utf-8,

@@ -1,0 +1,12 @@
+node_modules
+.idea
+.ftppass
+.grunt
+.sass-cache
+dest
+bower_components
+test/bower_components
+mak
+tmp
+server/logs
+test/results/wd.log
